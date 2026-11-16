@@ -9,10 +9,35 @@ body {
 }
 button {
     margin: 15px;
-    padding: 10px 20px 10px 20px;
-    border: 2px; border-color: darkblue; border-style: solid;
+    padding: 10px 20px;
+    border: 2px solid green;
 }
 .container {
     padding: 20px;
     border: 2px solid darkblue;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.add-button {
+    background-color: darkblue;
+    color: white;
+    border-radius: 8px;
+}
+#new-task {
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    background-color: lightgray;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
 }

@@ -1,0 +1,18 @@
+h1 {
+    color: darkblue;
+}
+h2 {
+    color: darkgreen;
+}
+body {
+  background-color: lightgray;
+}
+button {
+    margin: 15px;
+    padding: 10px 20px 10px 20px;
+    border: 2px; border-color: darkblue; border-style: solid;
+}
+.container {
+    padding: 20px;
+    border: 2px solid darkblue;
+}

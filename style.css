@@ -41,3 +41,28 @@ li {
     margin-bottom: 10px;
     border-radius: 8px;
 }
+#error-message {
+    color: crimson;
+    font-size: 12px;
+    margin-top: 4px;
+    margin-bottom: 0;
+    padding: 0;
+}
+.task-form {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+.task-form .add-button {
+    margin: 0;
+}
+
+.input-group {
+    flex: 1;
+    min-width: 0;
+}
+
+#new-task {
+    box-sizing: border-box;
+    width: 100%;
+}

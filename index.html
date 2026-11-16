@@ -10,8 +10,13 @@
     <div class="container">
     <h1>Welcome to Shem's Task Tracker</h1>
     <label for="new-task">New task</label>
-    <input type="text" id="new-task" placeholder="Enter a task">
-    <button class="add-button" type="button">Add task</button>
+    <div class="task-form">
+        <div class="input-group">
+              <input type="text" id="new-task" placeholder="Enter a task">
+             <p id="error-message" role="alert"></p>
+        </div>
+        <button class="add-button" type="button">Add task</button>
+    </div>
     <h2>Your Task List</h2>
     <ul>
         <li>Learn JavaScript basics</li>
